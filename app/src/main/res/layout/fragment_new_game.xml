@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.MyGShop.ui.shop.NewGameFragment"
+    android:background="@color/fondo_Oscuro"
+    android:id="@+id/newGameFragment"
+                android:clickable="true">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />-->
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/contenedorNewGame"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/layout_bg"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/gameImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:maxWidth="100dp"
+            android:background="@color/white"
+            android:maxHeight="100dp"
+            />
+
+        <EditText
+                android:id="@+id/gameImageData"
+                android:layout_width="100dp"
+                android:hint="@string/image"
+                android:padding="5dp"
+                android:maxHeight="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gameImageView"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/layout_bg"
+
+        />
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gameNameLayout"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/gameImageView"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/gameNameTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gameName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg_edit"
+            android:padding="5dp"
+            android:id="@+id/gameNameEdit" />
+            <TextView
+                    android:id="@+id/gamePriceTag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gamePrice" />
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:background="@drawable/layout_bg_edit"
+                    android:id="@+id/gamePriceEdit" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gameDesc"
+            android:id="@+id/gameDescTag"
+            android:layout_margin="10dp"
+
+            android:layout_below="@+id/gameImageData"
+            android:layout_centerHorizontal="true"/>
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+        android:layout_below="@id/gameDescTag"
+        android:id="@+id/contenedorDesc">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="150dp"
+                android:padding="10dp"
+                android:gravity="top"
+                android:id="@+id/gameDescEdit"
+                android:background="@drawable/layout_bg_edit"
+                />
+
+        </ScrollView>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add"
+                android:minWidth="100dp"
+                android:layout_below="@id/contenedorDesc"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/layout_bg"
+                android:padding="15dp"
+                android:textAllCaps="false"
+                android:id="@+id/addNewGame" android:layout_marginTop="10dp" android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp" android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

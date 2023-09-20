@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MyGShop</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="menu_home">Perfil</string>
+    <string name="menu_shop">Tienda</string>
+    <string name="menu_library">Biblioteca</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="login">Conectarse</string>
+    <string name="loginText">Iniciar sesion</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bienvenidaLogin">Bienvenido %1$s</string>
+    <string name="register">Registrarse</string>
+    <string name="logout">Salir</string>
+    <string name="gameName">Nombre</string>
+    <string name="gameDesc">Descripción</string>
+    <string name="add">Añadir</string>
+    <string name="forgotPass">¿Has olvidado la contraseña?</string>
+    <string name="gameBuy">Comprar</string>
+    <string name="gamePrice">Precio</string>
+    <string name="image">Imagen</string>
+    <string name="action_categories">Categorias</string>
+    <string name="Windows">Ventanas Principales</string>
+    <string name="BasicSetting">Opciones Basicas</string>
+    <string name="categoriesEdit">Introduzca una categoria</string>
+    <string name="search">Buscar</string>
+    <string name="categoryName">Nombre Categoria</string>
+    <string name="categorytimes">Veces en Juegos</string>
+    <string name="avatar">Elige tu avatar</string>
+    <string name="apodo">Apodo</string>
+    <string name="apodoEx">Nombre visible</string>
+    <string name="userEx">Nombre de conexión</string>
+    <string name="checkpass">Reintroduzca la contraseña</string>
+    <string name="email">Correo</string>
+    <string name="Birth">Fecha de nacimiento</string>
+    <string name="Phone">Numero de telefono</string>
+    <string name="Disconnected">Desconectado</string>
+    <string name="ordenar">"Ordenar por: "</string>
+    <string name="date">Fecha de Nacimiento</string>
+    <string name="personalData">Datos personales</string>
+
+
+    <string-array name="ordenarSpinner">
+        <item>Nombre ↑</item>
+        <item>Nombre ↓</item>
+        <item>Fecha ↑</item>
+        <item>Fecha ↓</item>
+    </string-array>
+</resources>

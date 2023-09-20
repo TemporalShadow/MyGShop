@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/fondo_oscurito"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.MyGShop.ui.home.HomeFragment"
+android:id="@+id/loginlayout">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/loginText"
+            android:layout_above="@+id/contedorLogin"
+            android:textSize="40sp" android:layout_marginTop="20dp" android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" android:layout_marginBottom="20dp"/>
+
+    <RelativeLayout
+            android:id="@+id/contedorLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+
+
+        <RelativeLayout
+                android:id="@+id/login"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/layout_bg">
+
+            <TextView
+                    android:id="@+id/textUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:padding="16dp"
+                    android:text="@string/user" />
+
+            <EditText
+                    android:id="@+id/editUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textUser"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/layout_bg_edit"
+                    android:drawableLeft="@drawable/personaclara"
+                    android:inputType="text"
+                    android:hint="@string/user"
+                    android:padding="16dp"
+                    android:textColor="@color/texto_Oscuro"
+                    android:textColorHint="@color/gris_claro"
+                    tools:ignore="DuplicateSpeakableTextCheck"/>
+
+            <TextView
+                    android:id="@+id/textPass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editUser"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:padding="16dp"
+                    android:text="@string/pass" />
+
+            <EditText
+                    android:inputType="textPassword"
+                    android:id="@+id/editPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textPass"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/layout_bg_edit"
+                    android:drawableLeft="@drawable/passclara"
+                    android:hint="@string/pass"
+                    android:padding="16dp"
+                    android:textColor="@color/texto_Oscuro"
+                    android:textColorHint="@color/gris_claro"
+                    tools:ignore="DuplicateSpeakableTextCheck"/>
+        </RelativeLayout>
+
+        <EditText android:layout_width="0dp" android:layout_height="0dp" android:layout_centerHorizontal="true" android:id="@+id/strut"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/layout_bg"
+                android:layout_toLeftOf="@+id/strut"
+                android:padding="16dp"
+                android:id="@+id/loginbnt"
+                android:text="@string/login"
+                android:textAllCaps="false"
+/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/layout_bg"
+                android:padding="16dp"
+                android:layout_toRightOf="@+id/strut"
+                android:id="@+id/registerbnt"
+                android:text="@string/register"
+                android:textAllCaps="false"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
