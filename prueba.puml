@@ -1,0 +1,230 @@
+@startuml
+
+skinparam nodesep 5
+left to right direction
+
+class com.example.MyGShop.ui.library.JuegosPropiosRepository {
+- List<Juego> games
+- SQLiteHelper sqlh
+# void saveRelacion(Juego)
++ void delGame(int)
++ List<Juego> getGames(String)
+}
+class com.example.MyGShop.ui.shop.Juego {
+- String name
+- int id
+- String descripcion
+- String image
+- Date fechaCreacion
+- int precio
++ int getPrecio()
++ void setPrecio(int)
++ String getName()
++ void setName(String)
++ int getId()
++ void setId(int)
++ String getDescripcion()
++ void setDescripcion(String)
++ String getImage()
++ void setImage(String)
++ Date getFechaCreacion()
++ void setFechaCreacion(Date)
++ String toString()
+}
+class com.example.MyGShop.ui.shop.JuegosRepository {
+- List<Juego> games
+- {static} SQLiteHelper sqlh
++ {static} void saveGame(Juego)
++ void removeGame(int)
++ List<Juego> getGames()
++ List<Juego> OrdenarPorNombre()
++ List<Juego> OrdenarFecha()
++ List<Juego> OrdenarFechaRevers()
++ List<Juego> BuscarJuego(String)
++ List<Juego> OrdenarPorNombreRevers()
+}
+class com.example.MyGShop.ui.shop.ShopAdapter {
+- List<Juego> objects
++ List<Juego> getList()
++ View getView(int,View,ViewGroup)
+}
+class com.example.MyGShop.MainActivity {
+- AppBarConfiguration mAppBarConfiguration
+- ActivityMainBinding binding
+# void onCreate(Bundle)
++ boolean onCreateOptionsMenu(Menu)
++ boolean onSupportNavigateUp()
++ void onBackPressed()
+}
+class com.example.MyGShop.ui.home.User {
+- int user_id
+- String user_name
+- String user_pass
+- String user_nick
+- String user_email
+- int user_phone
+- Date user_birth
+- int user_profile
++ int getUser_id()
++ void setUser_id(int)
++ String getUser_name()
++ void setUser_name(String)
++ String getUser_pass()
++ void setUser_pass(String)
++ String getUser_nick()
++ void setUser_nick(String)
++ String getUser_email()
++ void setUser_email(String)
++ int getUser_phone()
++ void setUser_phone(int)
++ Date getUser_birth()
++ void setUser_birth(Date)
++ int getUser_profile()
++ void setUser_profile(int)
++ String toString()
+}
+class com.example.MyGShop.ui.home.HomeFragment {
+- SQLiteHelper sqlh
+- View root
+- FragmentHomeBinding binding
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
++ void onDestroyView()
+}
+class com.example.MyGShop.ui.home.SimpleImageArrayAdapter {
+- Integer[] images
++ View getDropDownView(int,View,ViewGroup)
++ View getView(int,View,ViewGroup)
+- View getImageForPosition(int)
+}
+class com.example.MyGShop.ui.library.LibraryFragment {
+- FragmentLibraryBinding binding
+- View root
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+# String conectado()
++ void onDestroyView()
+}
+class com.example.MyGShop.ui.home.RegisterLoginFragment {
+~ FragmentRegisterLoginBinding binding
+~ User userObj
+- SQLiteHelper sqlh
+~ View root
++ {static} RegisterLoginFragment newInstance(String,String)
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.example.MyGShop.Sql.SQLiteHelper {
+~ String sqlCreate
+~ String sqlCreate5
+~ String sqlCreate4
+~ String sqlCreate2
+~ String sqlCreate3
++ void onCreate(SQLiteDatabase)
++ void onUpgrade(SQLiteDatabase,int,int)
+}
+class com.example.MyGShop.ui.shop.GameFragment {
+- FragmentGameBinding binding
+~ View root
+~ Juego game
+- String mParam1
+- String mParam2
+- SQLiteHelper sql
++ {static} GameFragment newInstance(String,String)
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+- void showCategories()
+}
+class com.example.MyGShop.DownloadImageTask {
+~ ImageView bmImage
+~ Bitmap mIcon11
+# Bitmap doInBackground(String)
+# void onPostExecute(Bitmap)
+}
+class com.example.MyGShop.Crypt {
+- {static} String ALGORITHM
+- {static} String KEY
++ {static} String encrypt(String)
++ {static} String decrypt(String)
+- {static} Key generateKey()
+}
+class com.example.MyGShop.ui.shop.NewGameFragment {
+- {static} int SELECT_PICTURE
+- FragmentNewGameBinding binding
+- View root
+- String mParam1
+- String mParam2
+- JuegosRepository repository
+~ String Url
++ {static} NewGameFragment newInstance()
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+- int getCallerFragment()
+~ void openImageChooser()
++ void onActivityResult(int,int,Intent)
+}
+class com.example.MyGShop.ui.shop.ShopFragment {
+# {static} View root
+- ShopAdapter[] shopAdapter
+- FragmentShopBinding binding
+- JuegosRepository rep
+- ListView lista
++ {static} ShopFragment newInstance()
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
++ void onDestroyView()
++ void onResume()
++ void updateListView()
+}
+class com.example.MyGShop.SplashActivity {
+- {static} int SPLASH_TIME_OUT
+~ ImageView image
+~ TextView name
+~ Animation topAnimantion
+# void onCreate(Bundle)
+}
+class com.example.MyGShop.ui.library.LibraryAdapter {
++ View getView(int,View,ViewGroup)
+}
+class com.example.MyGShop.ui.home.LogedUserFragment {
+- String name
+- User user
+- SQLiteHelper sqlh
+- FragmentLogedUserBinding binding
++ {static} LogedUserFragment newInstance(String,String)
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.example.MyGShop.Options.CategoriesFragment {
+- SQLiteHelper sql
+- FragmentCategoriesBinding binding
+- View root
++ {static} CategoriesFragment newInstance(String,String)
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
++ void BuscarTabla()
++ void ActualizarTabla()
+}
+class com.example.MyGShop.Options.SettingsFragment {
++ {static} SettingsFragment newInstance(String,String)
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+
+
+android.widget.ArrayAdapter <|-- com.example.MyGShop.ui.shop.ShopAdapter
+androidx.appcompat.app.AppCompatActivity <|-- com.example.MyGShop.MainActivity
+androidx.fragment.app.Fragment <|-- com.example.MyGShop.ui.home.HomeFragment
+android.widget.ArrayAdapter <|-- com.example.MyGShop.ui.home.SimpleImageArrayAdapter
+androidx.fragment.app.Fragment <|-- com.example.MyGShop.ui.library.LibraryFragment
+androidx.fragment.app.Fragment <|-- com.example.MyGShop.ui.home.RegisterLoginFragment
+android.database.sqlite.SQLiteOpenHelper <|-- com.example.MyGShop.Sql.SQLiteHelper
+androidx.fragment.app.Fragment <|-- com.example.MyGShop.ui.shop.GameFragment
+android.os.AsyncTask <|-- com.example.MyGShop.DownloadImageTask
+androidx.fragment.app.Fragment <|-- com.example.MyGShop.ui.shop.NewGameFragment
+androidx.fragment.app.Fragment <|-- com.example.MyGShop.ui.shop.ShopFragment
+androidx.appcompat.app.AppCompatActivity <|-- com.example.MyGShop.SplashActivity
+android.widget.ArrayAdapter <|-- com.example.MyGShop.ui.library.LibraryAdapter
+androidx.fragment.app.Fragment <|-- com.example.MyGShop.ui.home.LogedUserFragment
+androidx.fragment.app.Fragment <|-- com.example.MyGShop.Options.CategoriesFragment
+androidx.fragment.app.Fragment <|-- com.example.MyGShop.Options.SettingsFragment
+@enduml

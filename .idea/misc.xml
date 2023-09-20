@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/fcatalinz/.gradle/caches/transforms-3/b6f0d187be5c9a123a53118d219dfb77/transformed/material-1.5.0/res/layout/design_navigation_item.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.5/app/src/main/res/drawable/splash.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.5/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.5/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.5/app/src/main/res/layout/fragment_game.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.5/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.5/app/src/main/res/layout/fragment_loged_user.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.5/app/src/main/res/layout/fragment_new_game.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.5/app/src/main/res/layout/fragment_register_login.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.5/app/src/main/res/layout/fragment_shop.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.5/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/drawable/bg_spinner.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/drawable/bg_spinner_item_image.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/drawable/layout_bg.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/drawable/layout_spinner.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/drawable/layout_table.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/drawable/layout_tableheader.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/layout/fragment_categories.xml" value="0.3042168674698795" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/layout/fragment_game.xml" value="0.22" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/layout/fragment_register_login.xml" value="0.17428087986463622" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/layout/fragment_shop.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/layout/shop_item.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/layout/spinner_item_layout.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/menu/activity_main_drawer.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6.5/app/src/main/res/menu/main.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6/app/src/main/res/layout/fragment_game.xml" value="0.11367753623188406" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6/app/src/main/res/layout/fragment_new_game.xml" value="0.1272644927536232" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v4.6/app/src/main/res/layout/nav_header_main.xml" value="0.11367753623188406" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5.5/app/src/main/res/layout/activity_main.xml" value="0.16530797101449277" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5.5/app/src/main/res/layout/app_bar_loged.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5.5/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5.5/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5.5/app/src/main/res/layout/content_main2.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5.5/app/src/main/res/layout/fragment_game.xml" value="0.233502538071066" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5.5/app/src/main/res/layout/fragment_loged_user.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5.5/app/src/main/res/layout/fragment_new_game.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5.5/app/src/main/res/layout/fragment_shop.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5.5/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5.5/app/src/main/res/menu/main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5_1/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5_1/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5_1/app/src/main/res/layout/fragment_loged_user.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5_1/app/src/main/res/layout/fragment_new_game.xml" value="0.22" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5_1/app/src/main/res/layout/fragment_register_login.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5_1/app/src/main/res/layout/fragment_shop.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5_1/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5_2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5_2/app/src/main/res/layout/fragment_loged_user.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5_2/app/src/main/res/layout/fragment_shop.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5_2/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v5_2/app/src/main/res/menu/main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v6.1/app/src/main/res/layout/fragment_loged_user.xml" value="0.9475806451612904" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v6.1/app/src/main/res/layout/spinner_item_layout.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v6/app/src/main/res/layout/app_bar_main.xml" value="0.27419354838709675" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v6/app/src/main/res/layout/fragment_game.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v6/app/src/main/res/layout/fragment_home.xml" value="0.6169354838709677" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v6/app/src/main/res/layout/fragment_new_game.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v6/app/src/main/res/layout/fragment_register_login.xml" value="0.7258064516129032" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v6/app/src/main/res/layout/shoplist.xml" value="0.7258064516129032" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v6/app/src/main/res/layout/spinner_item_layout.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v6/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v6/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18177083333333333" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/MyGShop_v6/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.18177083333333333" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar/app/src/main/res/drawable/splash.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar/app/src/main/res/layout/fragment_shop.xml" value="0.22" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar/app/src/main/res/layout/fragment_shop_list.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar/app/src/main/res/layout/fragment_shoplist.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar/app/src/main/res/layout/shop_item.xml" value="0.22" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v2/app/src/main/res/drawable/splash.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v2/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v3/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v3/app/src/main/res/layout/fragment_loged_user.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v3/app/src/main/res/layout/fragment_register_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v3/app/src/main/res/layout/prueba.xml" value="0.15" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v3/app/src/main/res/layout/shop_item.xml" value="0.15" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v3/app/src/main/res/layout/shop_item_2.xml" value="0.15" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v3/app/src/main/res/layout/shoplist.xml" value="0.15" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4.1/app/src/main/res/layout/fragment_game.xml" value="0.15" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4.1/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4.1/app/src/main/res/layout/fragment_new_game.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4.1/app/src/main/res/layout/fragment_shop.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4.1/app/src/main/res/layout/shop_item.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4.1/app/src/main/res/layout/shopclara.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4/app/src/main/res/layout/app_bar_main.xml" value="0.15" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4/app/src/main/res/layout/content_main.xml" value="0.15" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4/app/src/main/res/layout/fragment_home.xml" value="0.165625" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4/app/src/main/res/layout/fragment_library.xml" value="0.165625" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4/app/src/main/res/layout/fragment_loged_user.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4/app/src/main/res/layout/fragment_shop.xml" value="0.1796875" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4/app/src/main/res/layout/nav_header_main.xml" value="0.22" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4/app/src/main/res/layout/prueba.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4/app/src/main/res/layout/shop_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4/app/src/main/res/layout/shoplist.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4/app/src/main/res/menu/activity_main_drawer.xml" value="0.16458333333333333" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/Android/ProyectoNavigationBar_v4/app/src/main/res/menu/main.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/drawable/bibliotecaclara.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/drawable/layout_bg.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/drawable/layout_bg_edit.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/drawable/passclara.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/drawable/personaclara.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/drawable/shopclara.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/layout/app_bar_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/layout/fragment_shop.xml" value="0.22" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/fcatalinz/IdeaProjects/SeleniumCofares/ProyectoNavigationBar/app/src/main/res/menu/main.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/florinfz/Andorid_Proyects/MyGShop_v5/app/src/main/res/drawable/splash.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/florinfz/Andorid_Proyects/MyGShop_v5/app/src/main/res/layout/app_bar_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/florinfz/Andorid_Proyects/MyGShop_v5/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/florinfz/Andorid_Proyects/MyGShop_v5/app/src/main/res/layout/fragment_game.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/florinfz/Andorid_Proyects/MyGShop_v5/app/src/main/res/layout/spinner_item_layout.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/florinfz/Andorid_Proyects/MyGShop_v5/app/src/main/res/layout/splashscreen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/florinfz/Desktop/MyGShop/app/src/main/res/drawable/bibliotecaclara.xml" value="0.1125" />
+        <entry key="..\:/Users/florinfz/Desktop/MyGShop/app/src/main/res/drawable/category_clara.xml" value="0.1125" />
+        <entry key="..\:/Users/florinfz/Desktop/MyGShop/app/src/main/res/drawable/passclara.xml" value="0.1125" />
+        <entry key="..\:/Users/florinfz/Desktop/MyGShop/app/src/main/res/drawable/personaclara.xml" value="0.1125" />
+        <entry key="..\:/Users/florinfz/Desktop/MyGShop/app/src/main/res/drawable/shopclara.xml" value="0.1125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

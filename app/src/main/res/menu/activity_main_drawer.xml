@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/group_title_primary"
+                android:title="@string/Windows">
+            <menu>
+                <item
+                        android:id="@+id/nav_home"
+                        android:icon="@drawable/personaclara"
+                        android:title="@string/menu_home"/>
+                <item
+                        android:id="@+id/nav_library"
+                        android:icon="@drawable/bibliotecaclara"
+                        android:title="@string/menu_library"/>
+                <item
+                        android:id="@+id/nav_shop"
+                        android:icon="@drawable/shopclara"
+                        android:title="@string/menu_shop"/>
+            </menu>
+        </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/group_title_secondary"
+                android:title="@string/BasicSetting">
+            <menu>
+                <item android:id="@+id/nav_categories"
+                      android:icon="@drawable/category_clara"
+                      android:title="@string/action_categories"
+                      android:orderInCategory="100"/>
+            </menu>
+
+        </item>
+
+    </group>
+</menu>

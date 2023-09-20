@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.MyGShop.ui.home.LogedUserFragment"
+             android:id="@+id/logedUserLayout"
+android:background="@color/fondo_Oscuro"
+                android:clickable="true">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:id="@+id/cabecera"
+            android:background="@drawable/layout_tableheader"
+
+    >
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/contenidoCabecera"
+                android:layout_marginTop="?attr/actionBarSize"
+        >
+            <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:background="@drawable/bg_spinner_item_image"
+                    android:padding="10dp"
+                    android:id="@+id/imagenAvatar"
+                    android:layout_marginTop="25dp" android:layout_marginStart="25dp" android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="25dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nick"
+                    android:padding="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/imagenAvatar"
+                    android:layout_margin="25dp"
+            >
+
+            </TextView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/datosPersonales"
+            android:layout_below="@+id/cabecera"
+            android:background="@drawable/layout_table"
+            android:orientation="vertical" android:layout_marginTop="25dp" android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp" android:layout_marginBottom="25dp">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/datosPersonalesheader"
+                android:text="@string/personalData"
+                android:gravity="center"
+                android:padding="7.5dp"
+        />
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/nombre"
+                android:background="@drawable/layout_bg_edit"
+        >
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="@string/user"
+            />
+            <TextView android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:padding="5dp"
+                      android:background="@drawable/layout_bg" android:id="@+id/textUser"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/email"
+                android:background="@drawable/layout_bg_edit"
+        >
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="@string/email"
+            />
+            <TextView android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:id="@+id/textEmail"
+                      android:padding="5dp"
+                      android:background="@drawable/layout_bg"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/birth"
+                android:background="@drawable/layout_bg_edit"
+        >
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="@string/date"
+            />
+            <TextView android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:id="@+id/textBirth"
+                      android:gravity="center"
+                      android:padding="5dp"
+                      android:background="@drawable/layout_bg"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/phone"
+                android:background="@drawable/layout_bg_edit"
+        >
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:text="@string/Phone"
+            />
+            <TextView android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:id="@+id/textPhone"
+                      android:padding="5dp"
+                      android:background="@drawable/layout_bg"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- TODO: Update blank fragment layout -->
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_below="@id/datosPersonales"
+                android:background="@drawable/layout_bg_edit"
+                android:text="@string/logout"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="false"
+                android:padding="15dp"
+                android:id="@+id/logoutbnt"
+        />
+
+
+</RelativeLayout>

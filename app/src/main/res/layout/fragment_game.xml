@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.MyGShop.ui.shop.GameFragment"
+    android:background="@color/fondo_Oscuro"
+
+    android:id="@+id/GameLayout"
+                android:clickable="true">
+
+    <RelativeLayout
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contenedorGame"
+        >
+
+        <ImageView
+            android:id="@+id/gameImageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:maxHeight="200dp"
+            android:maxWidth="200dp"/>
+        <Spinner android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/gameImageView"
+        android:id="@+id/gameCategoriasSpinner"
+                 android:padding="3dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@drawable/layout_spinner"
+        android:layout_marginTop="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_below="@+id/gameCategoriasSpinner"
+            android:id="@+id/categoriasGameLayout"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/gameImageView">
+
+        </LinearLayout>
+        <View android:id="@+id/strut"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gameName"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/gameImageView"
+            android:id="@+id/gameNameTag"
+            />
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:text="@string/gamePrice"
+                android:layout_alignRight="@id/strut"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:layout_below="@+id/gameNameTag"
+                android:id="@+id/gamePriceTag"/>
+        <Button
+                android:layout_width="0dp"
+                android:id="@+id/buttonBuy"
+                android:layout_height="50dp"
+                android:layout_below="@+id/gameNameTag"
+                android:layout_alignLeft="@id/strut"
+                android:layout_alignParentRight="true"
+                android:text="@string/gameBuy"
+                android:background="@drawable/layout_bg_edit"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@+id/gamePriceTag"
+        android:text="@string/gameDesc"
+                  android:id="@+id/descheader"
+                  android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+        <ScrollView android:layout_width="match_parent"
+                    android:layout_below="@+id/descheader"
+                    android:layout_height="match_parent">
+        <TextView
+                android:background="@drawable/layout_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:minHeight="250dp"
+                android:maxHeight="250dp"
+            android:id="@+id/gameDescTag"
+                android:padding="10dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="10dp"/>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>
